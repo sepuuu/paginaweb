@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #a0d2eb;
+	font-family: arial;
+
+}
+
+.menu{
+list-style: none;
+padding: 0;
+background: #8458B3;
+width: 100%;
+max-width: 1366px;
+margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color:white;
+	padding:20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background:white;
+	text-decoration: none;
+	color:black;
+}
+
+.buscador{
+	position: absolute;
+	top: 7%;
+	left: 90%;
+	transform: translate(-50%, -50%);
+	color:white;
+}
+
+audio{
+	position: absolute;
+	top:0.3%;
+	left: 60%;
+	
+}
+
+h1{
+	position: absolute;
+	top:10%;
+	left: 40%;
+}
+
+#imagen1{
+	position: absolute;
+	top:15%;
+	left: 20%;
+}
+
+#letra1{
+	position: absolute;
+	top:50%;
+	left: 60%;
+
+}
+
+
+
+
