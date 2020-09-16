@@ -1,0 +1,48 @@
+#main{
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    align-content: center;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    z-index: 15;
+    top: 80%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+}
+a{
+    font-family: 'Bebas Neue', cursive;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    color: #3EFF00;
+}
+a:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #fff;
+}
+h1{
+    font-size: 3em;
+    margin-bottom: 0.06em;
+}
+body{
+    background-color: #000;
+}
+#myVideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<title>Sepu</title>
+</head>
+<body>
+<div class="content">
+	 <a id="myBtn" onclick="myFunction()">Unmute</a>
+ </div>	
+<div id="main">
+	<h1>Sepu</h1>
+	<a href="https://www.youtube.com/channel/UCgAXiKgi6Gsx16gQM7o1ILQ">Youtube</a>---
+	<a href="https://twitter.com/spuxd">Twitter</a>---
+	<a href="https://steamcommunity.com/id/spuuuuu/">Steam</a>
+</div>
+	<video  video autoplay muted loop id="myVideo">
+	<source src="song.mp4" type="video/mp4">
+</body>
+<script>
+	var one = document.getElementsByClassName("random")
+
+	for (var i = 0; i < one.length; i++) {
+		var text = new ShuffleText(one[i]);
+		text.start();
+	}
+	var video = document.getElementById("myVideo");
+	
+	var btn = document.getElementById("myBtn");
+	
+	var vid = document.getElementById("myVideo");
+	vid.volume = 0.2;
+	function myFunction() {
+	  if (video.muted) {
+		video.muted = false;
+		btn.innerHTML = "Mute";
+	  } else {
+		video.muted = true;
+		btn.innerHTML = "Unmute";
+	  }
+	}
+	</script>
+</html>
